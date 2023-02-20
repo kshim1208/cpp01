@@ -4,6 +4,8 @@
 #include <string>
 #include <iostream>
 
+HumanB::HumanB(){}
+
 HumanB::HumanB(std::string name)
 {
 	this->name = name;

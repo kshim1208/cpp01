@@ -1,10 +1,10 @@
-NAME = Sed_is_for_losers
+NAME = Harl_2.0
 CPPC = c++
 CFLAGS = -Wall -Werror -Wextra -std=c++98
 RM = rm
 RMFLAGS = -f
 
-SRCS = main.cpp FileProcessor.cpp
+SRCS = main.cpp Harl.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
